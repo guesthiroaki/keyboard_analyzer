@@ -15,6 +15,7 @@
   import kana from './keyboards/jis_kana.json';
   import nicola from './keyboards/jis_nicola.json';
   import eucalyn from './keyboards/jis_eucalyn.json';
+  import onishi from './keyboards/jis_onishi.json';
   import shingeta from './keyboards/jis_shingeta.json';
   import asuka from './keyboards/jis_asuka123.json';
   import arensito from './keyboards/ortho_arensito.json';
@@ -54,6 +55,7 @@
     "飛鳥123": asuka,
     "月配列2-263": tsuki,
     "けいならべ": keinarabe,
+    "大西配列": onishi,
     "Eucalynローマ字": eucalyn,
     "Dvorak": dvorak,
     "Colemak": colemak,
