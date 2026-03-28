@@ -284,9 +284,9 @@
     </Select>
 
   {#if showresult == "loading"}
-  <Button color="secondary" on:click={startAnalsys} variant="outlined" disabled><Label>分析開始</Label></Button>
+  <Button color="secondary" onclick={startAnalsys} variant="outlined" disabled><Label>分析開始</Label></Button>
   {:else}
-  <Button color="secondary" on:click={startAnalsys} variant="outlined"><Label>分析開始</Label></Button>
+  <Button color="secondary" onclick={startAnalsys} variant="outlined"><Label>分析開始</Label></Button>
   {/if}
 
   <Dialog bind:open={optionDialog} aria-labelledby="option-title" aria-describedby="option-content" >
@@ -317,7 +317,7 @@
         </Button>
       </Actions>
   </Dialog>
-  <Button color="secondary" on:click={() => (optionDialog = true)}><Label>オプション選択</Label></Button>
+  <Button color="secondary" onclick={() => (optionDialog = true)}><Label>オプション選択</Label></Button>
 
   <Dialog bind:open={remarkDialog} aria-labelledby="remark-title" aria-describedby="remark-content" >
       <Title id="remark-title">{selected_kb}</Title>
@@ -335,7 +335,7 @@
         </Button>
       </Actions>
   </Dialog>
-  <Button color="secondary" on:click={() => {kbchange();remarkDialog = true;}}><Label>補足説明</Label></Button>
+  <Button color="secondary" onclick={() => {kbchange();remarkDialog = true;}}><Label>補足説明</Label></Button>
 
   </div>
 
@@ -395,14 +395,14 @@
                   <span class="right">％の母数はアクション数。</span>
                 </div>
               </div></Cell>
-              <Cell><div class="numberfield">{ntanda}</Cell>
+              <Cell><div class="numberfield">{ntanda}</div></Cell>
               <Cell><div class="numberfield">{percent(ntanda / naction, 1)}</div></Cell>
               <Cell><div class="textfield">
                 <div class="tooltip">同時打鍵数
                   <span class="top">％の母数はアクション数。</span>
                 </div>
               </div></Cell>
-              <Cell><div class="numberfield">{ndouji}</Cell>
+              <Cell><div class="numberfield">{ndouji}</div></Cell>
               <Cell><div class="numberfield">{percent(ndouji / naction, 1)}</div></Cell>
             </Row>
             <Row>
@@ -411,12 +411,12 @@
                   <span class="right">％の母数はアクション数。</span>
                 </div>
               </div></Cell>
-              <Cell><div class="numberfield">{nkey}</Cell>
+              <Cell><div class="numberfield">{nkey}</div></Cell>
               <Cell><div class="numberfield"></div></Cell>
               <Cell><div class="textfield">
                 左手:右手
               </div></Cell>
-              <Cell><div class="numberfield">{left}:{right}</Cell>
+              <Cell><div class="numberfield">{left}:{right}</div></Cell>
               <Cell><div class="numberfield">{percent(left/ntype, 0)}:{percent(right/ntype, 0)}</div></Cell>
             </Row>
             <Row>
@@ -425,14 +425,14 @@
                   <span class="right">％の母数は総打鍵数。</span>
                 </div>
               </div></Cell>
-              <Cell><div class="numberfield">{nhome}</Cell>
+              <Cell><div class="numberfield">{nhome}</div></Cell>
               <Cell><div class="numberfield">{percent(nhome / ntype, 1)}</div></Cell>
               <Cell><div class="textfield">
                 <div class="tooltip">H.P.打鍵数(除くシフト)
                   <span class="top">％の母数は総打鍵数-シフト数。</span>
                 </div>
               </div></Cell>
-              <Cell><div class="numberfield">{nhomeNS}</Cell>
+              <Cell><div class="numberfield">{nhomeNS}</div></Cell>
               <Cell><div class="numberfield">{percent(nhomeNS / (ntype - nshift), 1)}</div></Cell>
             </Row>
             <Row>
@@ -442,14 +442,14 @@
                   <i></i>
                 </div>
               </div></Cell>
-              <Cell><div class="numberfield">{nshift}</Cell>
+              <Cell><div class="numberfield">{nshift}</div></Cell>
               <Cell><div class="numberfield">{percent(nshift / naction, 1)}</div></Cell>
               <Cell><div class="textfield">
                 <div class="tooltip">うち連続シフト数
                   <span class="top">シフトを押っぱなしで連続して入力した文字数。％の母数はアクション数。</span>
                 </div>
               </div></Cell>
-              <Cell><div class="numberfield">{nreshift}</Cell>
+              <Cell><div class="numberfield">{nreshift}</div></Cell>
               <Cell><div class="numberfield">{percent(nreshift / naction, 1)}</div></Cell>
             </Row>
             <Row>
@@ -465,7 +465,7 @@
                   <span class="top">同じ指で連続して行をまたいで異なるキーを押した数。％の母数はアクション数-1。</span>
                 </div>
               </div></Cell>
-              <Cell><div class="numberfield">{ndangoe}</Cell>
+              <Cell><div class="numberfield">{ndangoe}</div></Cell>
               <Cell><div class="numberfield">{percent(ndangoe / (naction - 1), 1)}</div></Cell>
             </Row>
             <Row>
@@ -481,7 +481,7 @@
                   <span class="top">親指除く。％の母数はアクション数-1。</span>
                 </div>
               </div></Cell>
-              <Cell><div class="numberfield">{doute.toFixed(1)}</Cell>
+              <Cell><div class="numberfield">{doute.toFixed(1)}</div></Cell>
               <Cell><div class="numberfield"></div></Cell>
             </Row>
             <Row>
