@@ -7,11 +7,8 @@
 
   // キー配列
   import romaji from './keyboards/jis_romaji.json';
-  import naginata from './keyboards/jis_naginata.json';
-  import ortho_naginata12 from './keyboards/ortho_naginata12.json';
-  import ortho_naginata13 from './keyboards/ortho_naginata13.json';
-  import ortho_naginata14 from './keyboards/ortho_naginata14.json';
-  import ortho_naginata15 from './keyboards/ortho_naginata15.json';
+  import naginata14 from './keyboards/jis_naginata14.json';
+  import naginata17 from './keyboards/jis_naginata17.json';
   import kana from './keyboards/jis_kana.json';
   import nicola from './keyboards/jis_nicola.json';
   import eucalyn from './keyboards/jis_eucalyn.json';
@@ -43,11 +40,8 @@
   // 入力UI
   const keyboards = {
     "QWERTYローマ字" : romaji,
-    "薙刀式v14": naginata,
-    "薙刀式v15B1 MiniAxe": ortho_naginata15,
-    "薙刀式v14 MiniAxe": ortho_naginata14,
-    "薙刀式v13 MiniAxe": ortho_naginata13,
-    "薙刀式v12 MiniAxe": ortho_naginata12,
+    "薙刀式v14": naginata14,
+    "薙刀式v17": naginata17,
     "JISかな": kana,
     "新JIS": shinjis,
     "親指シフト": nicola,

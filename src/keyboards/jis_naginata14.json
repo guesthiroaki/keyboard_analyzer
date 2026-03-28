@@ -179,7 +179,7 @@
       "|": {"keys": ["\\"], "shift":["space"], "type":"seq", "renzsft": true},
       "}": {"keys": ["]"], "shift":["space"], "type":"seq", "renzsft": true},
       "~": {"keys": ["^"], "shift":["space"], "type":"seq", "renzsft": true},
-      "\n": {"keys": ["v", "m"], "shift":[], "type":"seq"},
+      "\n": {"keys": ["v", "m"], "shift":[], "type":"sim"},
       "\t": {"keys": ["tab"], "shift":[], "type":"seq"},
 
       "IME ON": {"keys": ["h", "j"], "shift":[], "type": "sim"},
