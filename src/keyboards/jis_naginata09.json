@@ -1,0 +1,2601 @@
+{
+    "name": "薙刀式",
+    "remark": "dvorakj定義ファイル v9 から移植。編集モードと固有名詞定義は未変換。",
+    "keys": [
+        [
+            {
+                "id": "zkhk",
+                "legend": [
+                    "全角"
+                ],
+                "size": 1,
+                "finger": 0
+            },
+            {
+                "id": "1",
+                "legend": [
+                    "１",
+                    "！"
+                ],
+                "size": 1,
+                "finger": 0
+            },
+            {
+                "id": "2",
+                "legend": [
+                    "２",
+                    "＠"
+                ],
+                "size": 1,
+                "finger": 1
+            },
+            {
+                "id": "3",
+                "legend": [
+                    "３",
+                    "＃"
+                ],
+                "size": 1,
+                "finger": 2
+            },
+            {
+                "id": "4",
+                "legend": [
+                    "４",
+                    "＄"
+                ],
+                "size": 1,
+                "finger": 3
+            },
+            {
+                "id": "5",
+                "legend": [
+                    "５",
+                    "％"
+                ],
+                "size": 1,
+                "finger": 3
+            },
+            {
+                "id": "6",
+                "legend": [
+                    "６",
+                    "＾"
+                ],
+                "size": 1,
+                "finger": 6
+            },
+            {
+                "id": "7",
+                "legend": [
+                    "７",
+                    "＆"
+                ],
+                "size": 1,
+                "finger": 6
+            },
+            {
+                "id": "8",
+                "legend": [
+                    "８",
+                    "＊"
+                ],
+                "size": 1,
+                "finger": 7
+            },
+            {
+                "id": "9",
+                "legend": [
+                    "９",
+                    "（"
+                ],
+                "size": 1,
+                "finger": 8
+            },
+            {
+                "id": "0",
+                "legend": [
+                    "０",
+                    "）"
+                ],
+                "size": 1,
+                "finger": 9
+            },
+            {
+                "id": "-",
+                "legend": [
+                    "ー",
+                    "＿"
+                ],
+                "size": 1,
+                "finger": 9
+            },
+            {
+                "id": "^",
+                "legend": [
+                    "＝",
+                    "＋"
+                ],
+                "size": 1,
+                "finger": 9
+            },
+            {
+                "id": "\\",
+                "legend": [
+                    "￥"
+                ],
+                "size": 1,
+                "finger": 9
+            },
+            {
+                "id": "bs",
+                "legend": [
+                    "BS"
+                ],
+                "size": 1,
+                "finger": 9
+            }
+        ],
+        [
+            {
+                "id": "tab",
+                "legend": [
+                    "Tab"
+                ],
+                "size": 1.5,
+                "finger": 0
+            },
+            {
+                "id": "q",
+                "legend": [
+                    "ヴ"
+                ],
+                "size": 1,
+                "finger": 0
+            },
+            {
+                "id": "w",
+                "legend": [
+                    "き",
+                    "む"
+                ],
+                "size": 1,
+                "finger": 1
+            },
+            {
+                "id": "e",
+                "legend": [
+                    "て",
+                    "り"
+                ],
+                "size": 1,
+                "finger": 2
+            },
+            {
+                "id": "r",
+                "legend": [
+                    "し",
+                    "め"
+                ],
+                "size": 1,
+                "finger": 3
+            },
+            {
+                "id": "t",
+                "legend": [
+                    "←"
+                ],
+                "size": 1,
+                "finger": 3
+            },
+            {
+                "id": "y",
+                "legend": [
+                    "→"
+                ],
+                "size": 1,
+                "finger": 6
+            },
+            {
+                "id": "u",
+                "legend": [
+                    "BS",
+                    "さ"
+                ],
+                "size": 1,
+                "finger": 6
+            },
+            {
+                "id": "i",
+                "legend": [
+                    "る",
+                    "よ"
+                ],
+                "size": 1,
+                "finger": 7
+            },
+            {
+                "id": "o",
+                "legend": [
+                    "す",
+                    "え"
+                ],
+                "size": 1,
+                "finger": 8
+            },
+            {
+                "id": "p",
+                "legend": [
+                    "へ",
+                    "ね"
+                ],
+                "size": 1,
+                "finger": 9
+            },
+            {
+                "id": "@",
+                "legend": [
+                    "「",
+                    "『"
+                ],
+                "size": 1,
+                "finger": 9
+            },
+            {
+                "id": "[",
+                "legend": [
+                    "」",
+                    "』"
+                ],
+                "size": 1,
+                "finger": 9
+            },
+            {
+                "id": "enter",
+                "legend": [
+                    "Enter"
+                ],
+                "size": 1.5,
+                "finger": 9
+            }
+        ],
+        [
+            {
+                "id": "caps",
+                "legend": [
+                    "Caps Lock"
+                ],
+                "size": 1.75,
+                "finger": 0
+            },
+            {
+                "id": "a",
+                "legend": [
+                    "ろ",
+                    "せ"
+                ],
+                "size": 1,
+                "finger": 0,
+                "home": true
+            },
+            {
+                "id": "s",
+                "legend": [
+                    "け",
+                    "み"
+                ],
+                "size": 1,
+                "finger": 1,
+                "home": true
+            },
+            {
+                "id": "d",
+                "legend": [
+                    "と",
+                    "に"
+                ],
+                "size": 1,
+                "finger": 2,
+                "home": true
+            },
+            {
+                "id": "f",
+                "legend": [
+                    "か",
+                    "ま"
+                ],
+                "size": 1,
+                "finger": 3,
+                "home": true
+            },
+            {
+                "id": "g",
+                "legend": [
+                    "っ",
+                    "ち"
+                ],
+                "size": 1,
+                "finger": 3
+            },
+            {
+                "id": "h",
+                "legend": [
+                    "く",
+                    "わ"
+                ],
+                "size": 1,
+                "finger": 6
+            },
+            {
+                "id": "j",
+                "legend": [
+                    "あ",
+                    "の"
+                ],
+                "size": 1,
+                "finger": 6,
+                "home": true
+            },
+            {
+                "id": "k",
+                "legend": [
+                    "い",
+                    "も"
+                ],
+                "size": 1,
+                "finger": 7,
+                "home": true
+            },
+            {
+                "id": "l",
+                "legend": [
+                    "う",
+                    "つ"
+                ],
+                "size": 1,
+                "finger": 8,
+                "home": true
+            },
+            {
+                "id": ";",
+                "legend": [
+                    "ー",
+                    "や"
+                ],
+                "size": 1,
+                "finger": 9,
+                "home": true
+            },
+            {
+                "id": ":",
+                "legend": [
+                    "’",
+                    "”"
+                ],
+                "size": 1,
+                "finger": 9
+            },
+            {
+                "id": "]",
+                "legend": [
+                    "‘",
+                    "～"
+                ],
+                "size": 1,
+                "finger": 9
+            }
+        ],
+        [
+            {
+                "id": "shift",
+                "legend": [
+                    "Shift"
+                ],
+                "size": 2.25,
+                "finger": 0
+            },
+            {
+                "id": "z",
+                "legend": [
+                    "ほ"
+                ],
+                "size": 1,
+                "finger": 0
+            },
+            {
+                "id": "x",
+                "legend": [
+                    "ひ"
+                ],
+                "size": 1,
+                "finger": 1
+            },
+            {
+                "id": "c",
+                "legend": [
+                    "は",
+                    "を"
+                ],
+                "size": 1,
+                "finger": 2
+            },
+            {
+                "id": "v",
+                "legend": [
+                    "こ",
+                    "、"
+                ],
+                "size": 1,
+                "finger": 3
+            },
+            {
+                "id": "b",
+                "legend": [
+                    "そ",
+                    "ぬ"
+                ],
+                "size": 1,
+                "finger": 3
+            },
+            {
+                "id": "n",
+                "legend": [
+                    "た",
+                    "お"
+                ],
+                "size": 1,
+                "finger": 6
+            },
+            {
+                "id": "m",
+                "legend": [
+                    "な",
+                    "。"
+                ],
+                "size": 1,
+                "finger": 6
+            },
+            {
+                "id": ",",
+                "legend": [
+                    "ん",
+                    "ゆ"
+                ],
+                "size": 1,
+                "finger": 7
+            },
+            {
+                "id": ".",
+                "legend": [
+                    "ら",
+                    "ふ"
+                ],
+                "size": 1,
+                "finger": 8
+            },
+            {
+                "id": "/",
+                "legend": [
+                    "れ"
+                ],
+                "size": 1,
+                "finger": 9
+            },
+            {
+                "id": "_",
+                "legend": [
+                    "？",
+                    "！"
+                ],
+                "size": 1,
+                "finger": 9
+            },
+            {
+                "id": "shiftr",
+                "legend": [
+                    "Shift"
+                ],
+                "size": 1.75,
+                "finger": 9
+            }
+        ],
+        [
+            {
+                "id": "ctrl",
+                "legend": [
+                    "Ctrl"
+                ],
+                "size": 1.25,
+                "finger": 0
+            },
+            {
+                "id": "win",
+                "legend": [
+                    "Win"
+                ],
+                "size": 1.25,
+                "finger": 0
+            },
+            {
+                "id": "alt",
+                "legend": [
+                    "Alt"
+                ],
+                "size": 1.25,
+                "finger": 0
+            },
+            {
+                "id": "muhen",
+                "legend": [
+                    "無変換"
+                ],
+                "size": 1,
+                "finger": 4
+            },
+            {
+                "id": "space",
+                "legend": [
+                    "Space"
+                ],
+                "size": 3.25,
+                "finger": 4,
+                "home": true
+            },
+            {
+                "id": "henk",
+                "legend": [
+                    "変換"
+                ],
+                "size": 1,
+                "finger": 5
+            },
+            {
+                "id": "kana",
+                "legend": [
+                    "かな"
+                ],
+                "size": 1,
+                "finger": 5
+            },
+            {
+                "id": "altr",
+                "legend": [
+                    "Alt"
+                ],
+                "size": 1.25,
+                "finger": 8
+            },
+            {
+                "id": "winr",
+                "legend": [
+                    "Win"
+                ],
+                "size": 1.25,
+                "finger": 9
+            },
+            {
+                "id": "app",
+                "legend": [
+                    "App"
+                ],
+                "size": 1.25,
+                "finger": 9
+            },
+            {
+                "id": "ctrlr",
+                "legend": [
+                    "Ctrl"
+                ],
+                "size": 1.25,
+                "finger": 9
+            }
+        ]
+    ],
+    "arpeggio": [
+        [
+            [
+                2,
+                7
+            ],
+            [
+                2,
+                8
+            ]
+        ],
+        [
+            [
+                2,
+                7
+            ],
+            [
+                1,
+                8
+            ]
+        ],
+        [
+            [
+                3,
+                7
+            ],
+            [
+                2,
+                8
+            ]
+        ],
+        [
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                8
+            ]
+        ],
+        [
+            [
+                2,
+                6
+            ],
+            [
+                1,
+                8
+            ]
+        ],
+        [
+            [
+                3,
+                6
+            ],
+            [
+                1,
+                8
+            ]
+        ],
+        [
+            [
+                1,
+                7
+            ],
+            [
+                1,
+                8
+            ]
+        ],
+        [
+            [
+                3,
+                6
+            ],
+            [
+                2,
+                8
+            ]
+        ],
+        [
+            [
+                3,
+                7
+            ],
+            [
+                1,
+                8
+            ]
+        ],
+        [
+            [
+                2,
+                6
+            ],
+            [
+                2,
+                8
+            ]
+        ],
+        [
+            [
+                2,
+                7
+            ],
+            [
+                2,
+                9
+            ]
+        ],
+        [
+            [
+                2,
+                7
+            ],
+            [
+                1,
+                9
+            ]
+        ],
+        [
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                8
+            ]
+        ],
+        [
+            [
+                3,
+                7
+            ],
+            [
+                2,
+                9
+            ]
+        ],
+        [
+            [
+                1,
+                2
+            ],
+            [
+                1,
+                6
+            ]
+        ],
+        [
+            [
+                1,
+                4
+            ],
+            [
+                1,
+                7
+            ]
+        ],
+        [
+            [
+                2,
+                7
+            ],
+            [
+                3,
+                8
+            ]
+        ],
+        [
+            [
+                2,
+                7
+            ],
+            [
+                3,
+                9
+            ]
+        ],
+        [
+            [
+                2,
+                3
+            ],
+            [
+                3,
+                6
+            ]
+        ],
+        [
+            [
+                2,
+                4
+            ],
+            [
+                3,
+                6
+            ]
+        ],
+        [
+            [
+                3,
+                4
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        [
+            [
+                1,
+                4
+            ],
+            [
+                1,
+                8
+            ]
+        ],
+        [
+            [
+                3,
+                6
+            ],
+            [
+                2,
+                9
+            ]
+        ],
+        [
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                9
+            ]
+        ],
+        [
+            [
+                1,
+                5
+            ],
+            [
+                1,
+                7
+            ]
+        ],
+        [
+            [
+                1,
+                2
+            ],
+            [
+                1,
+                8
+            ]
+        ],
+        [
+            [
+                3,
+                7
+            ],
+            [
+                2,
+                10
+            ]
+        ],
+        [
+            [
+                2,
+                4
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        [
+            [
+                2,
+                5
+            ],
+            [
+                3,
+                7
+            ]
+        ]
+    ],
+    "conversion": {
+        "0": {
+            "keys": [
+                "0"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "1": {
+            "keys": [
+                "1"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "2": {
+            "keys": [
+                "2"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "3": {
+            "keys": [
+                "3"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "4": {
+            "keys": [
+                "4"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "5": {
+            "keys": [
+                "5"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "6": {
+            "keys": [
+                "6"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "7": {
+            "keys": [
+                "7"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "8": {
+            "keys": [
+                "8"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "9": {
+            "keys": [
+                "9"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        " ": {
+            "keys": [
+                "space"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "!": {
+            "keys": [
+                "1"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "\"": {
+            "keys": [
+                "2"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "#": {
+            "keys": [
+                "3"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "$": {
+            "keys": [
+                "4"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "%": {
+            "keys": [
+                "5"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "&": {
+            "keys": [
+                "6"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "'": {
+            "keys": [
+                "7"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "(": {
+            "keys": [
+                "8"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        ")": {
+            "keys": [
+                "9"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "*": {
+            "keys": [
+                ":"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "+": {
+            "keys": [
+                ";"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        ",": {
+            "keys": [
+                ","
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "-": {
+            "keys": [
+                "-"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        ".": {
+            "keys": [
+                "."
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "/": {
+            "keys": [
+                "/"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        ":": {
+            "keys": [
+                ":"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        ";": {
+            "keys": [
+                ";"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "<": {
+            "keys": [
+                ","
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "=": {
+            "keys": [
+                "-"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        ">": {
+            "keys": [
+                "."
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "?": {
+            "keys": [
+                "/"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "@": {
+            "keys": [
+                "@"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "A": {
+            "keys": [
+                "a"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "B": {
+            "keys": [
+                "b"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "C": {
+            "keys": [
+                "c"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "D": {
+            "keys": [
+                "d"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "E": {
+            "keys": [
+                "e"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "F": {
+            "keys": [
+                "f"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "G": {
+            "keys": [
+                "g"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "H": {
+            "keys": [
+                "h"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "I": {
+            "keys": [
+                "i"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "J": {
+            "keys": [
+                "j"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "K": {
+            "keys": [
+                "k"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "L": {
+            "keys": [
+                "l"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "M": {
+            "keys": [
+                "m"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "N": {
+            "keys": [
+                "n"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "O": {
+            "keys": [
+                "o"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "P": {
+            "keys": [
+                "p"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "Q": {
+            "keys": [
+                "q"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "R": {
+            "keys": [
+                "r"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "S": {
+            "keys": [
+                "s"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "T": {
+            "keys": [
+                "t"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "U": {
+            "keys": [
+                "u"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "V": {
+            "keys": [
+                "v"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "W": {
+            "keys": [
+                "w"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "X": {
+            "keys": [
+                "x"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "Y": {
+            "keys": [
+                "y"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "Z": {
+            "keys": [
+                "z"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "[": {
+            "keys": [
+                "["
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "\\": {
+            "keys": [
+                "\\"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "]": {
+            "keys": [
+                "]"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "^": {
+            "keys": [
+                "^"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "_": {
+            "keys": [
+                "_"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "`": {
+            "keys": [
+                "@"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "a": {
+            "keys": [
+                "a"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "b": {
+            "keys": [
+                "b"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "c": {
+            "keys": [
+                "c"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "d": {
+            "keys": [
+                "d"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "e": {
+            "keys": [
+                "e"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "f": {
+            "keys": [
+                "f"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "g": {
+            "keys": [
+                "g"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "h": {
+            "keys": [
+                "h"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "i": {
+            "keys": [
+                "i"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "j": {
+            "keys": [
+                "j"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "k": {
+            "keys": [
+                "k"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "l": {
+            "keys": [
+                "l"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "m": {
+            "keys": [
+                "m"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "n": {
+            "keys": [
+                "n"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "o": {
+            "keys": [
+                "o"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "p": {
+            "keys": [
+                "p"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "q": {
+            "keys": [
+                "q"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "r": {
+            "keys": [
+                "r"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "s": {
+            "keys": [
+                "s"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "t": {
+            "keys": [
+                "t"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "u": {
+            "keys": [
+                "u"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "v": {
+            "keys": [
+                "v"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "w": {
+            "keys": [
+                "w"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "x": {
+            "keys": [
+                "x"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "y": {
+            "keys": [
+                "y"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "z": {
+            "keys": [
+                "z"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "{": {
+            "keys": [
+                "["
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "|": {
+            "keys": [
+                "\\"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "}": {
+            "keys": [
+                "]"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "~": {
+            "keys": [
+                "^"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "seq",
+            "renzsft": true
+        },
+        "\n": {
+            "keys": [
+                "v",
+                "m"
+            ],
+            "shift": [],
+            "type": "sim"
+        },
+        "\t": {
+            "keys": [
+                "tab"
+            ],
+            "shift": [],
+            "type": "seq"
+        },
+        "IME ON": {
+            "keys": [
+                "h",
+                "j"
+            ],
+            "shift": [],
+            "type": "sim"
+        },
+        "IME OFF": {
+            "keys": [
+                "f",
+                "g"
+            ],
+            "shift": [],
+            "type": "sim"
+        },
+        "１": {
+            "keys": [
+                "1"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "！": {
+            "keys": [
+                "_"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "２": {
+            "keys": [
+                "2"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "＠": {
+            "keys": [
+                "2"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "３": {
+            "keys": [
+                "3"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "＃": {
+            "keys": [
+                "3"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "４": {
+            "keys": [
+                "4"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "＄": {
+            "keys": [
+                "4"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "５": {
+            "keys": [
+                "5"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "％": {
+            "keys": [
+                "5"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "６": {
+            "keys": [
+                "6"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "＾": {
+            "keys": [
+                "6"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "７": {
+            "keys": [
+                "7"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "＆": {
+            "keys": [
+                "7"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "８": {
+            "keys": [
+                "8"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "＊": {
+            "keys": [
+                "8"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "９": {
+            "keys": [
+                "9"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "（": {
+            "keys": [
+                "9"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "０": {
+            "keys": [
+                "0"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "）": {
+            "keys": [
+                "0"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "ー": {
+            "keys": [
+                ";"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "＿": {
+            "keys": [
+                "-"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "＝": {
+            "keys": [
+                "^"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "＋": {
+            "keys": [
+                "^"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "￥": {
+            "keys": [
+                "\\"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "ヴ": {
+            "keys": [
+                "q"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "き": {
+            "keys": [
+                "w"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "む": {
+            "keys": [
+                "w"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "て": {
+            "keys": [
+                "e"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "り": {
+            "keys": [
+                "e"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "し": {
+            "keys": [
+                "r"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "め": {
+            "keys": [
+                "r"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "さ": {
+            "keys": [
+                "u"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "る": {
+            "keys": [
+                "i"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "よ": {
+            "keys": [
+                "i"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "す": {
+            "keys": [
+                "o"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "え": {
+            "keys": [
+                "o"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "へ": {
+            "keys": [
+                "p"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "ね": {
+            "keys": [
+                "p"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "「": {
+            "keys": [
+                "@"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "『": {
+            "keys": [
+                "@"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "」": {
+            "keys": [
+                "["
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "』": {
+            "keys": [
+                "["
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "ろ": {
+            "keys": [
+                "a"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "せ": {
+            "keys": [
+                "a"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "け": {
+            "keys": [
+                "s"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "み": {
+            "keys": [
+                "s"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "と": {
+            "keys": [
+                "d"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "に": {
+            "keys": [
+                "d"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "か": {
+            "keys": [
+                "f"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "ま": {
+            "keys": [
+                "f"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "っ": {
+            "keys": [
+                "g"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "ち": {
+            "keys": [
+                "g"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "く": {
+            "keys": [
+                "h"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "わ": {
+            "keys": [
+                "h"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "あ": {
+            "keys": [
+                "j"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "の": {
+            "keys": [
+                "j"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "い": {
+            "keys": [
+                "k"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "も": {
+            "keys": [
+                "k"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "う": {
+            "keys": [
+                "l"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "つ": {
+            "keys": [
+                "l"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "や": {
+            "keys": [
+                ";"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "’": {
+            "keys": [
+                ":"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "”": {
+            "keys": [
+                ":"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "‘": {
+            "keys": [
+                "]"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "～": {
+            "keys": [
+                "]"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "ほ": {
+            "keys": [
+                "z"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "ひ": {
+            "keys": [
+                "x"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "は": {
+            "keys": [
+                "c"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "を": {
+            "keys": [
+                "c"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "こ": {
+            "keys": [
+                "v"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "、": {
+            "keys": [
+                "v"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "そ": {
+            "keys": [
+                "b"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "ぬ": {
+            "keys": [
+                "b"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "た": {
+            "keys": [
+                "n"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "お": {
+            "keys": [
+                "n"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "な": {
+            "keys": [
+                "m"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "。": {
+            "keys": [
+                "m"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "ん": {
+            "keys": [
+                ","
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "ゆ": {
+            "keys": [
+                ","
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "ら": {
+            "keys": [
+                "."
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "ふ": {
+            "keys": [
+                "."
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "れ": {
+            "keys": [
+                "/"
+            ],
+            "shift": [
+                "space"
+            ],
+            "type": "sim",
+            "ime": true,
+            "renzsft": true
+        },
+        "？": {
+            "keys": [
+                "_"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "が": {
+            "keys": [
+                "f",
+                "j"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "ぎ": {
+            "keys": [
+                "w",
+                "j"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "じ": {
+            "keys": [
+                "r",
+                "j"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "だ": {
+            "keys": [
+                "n",
+                "f"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "で": {
+            "keys": [
+                "e",
+                "j"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "び": {
+            "keys": [
+                "x",
+                "j"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "ゅ": {
+            "keys": [
+                ",",
+                "v"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        },
+        "ょ": {
+            "keys": [
+                "i",
+                "v"
+            ],
+            "shift": [],
+            "type": "sim",
+            "ime": true
+        }
+    }
+}
