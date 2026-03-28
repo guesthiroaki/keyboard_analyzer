@@ -8,6 +8,8 @@
   // キー配列
   import romaji from './keyboards/jis_romaji.json';
   import naginata14 from './keyboards/jis_naginata14.json';
+  import naginata15 from './keyboards/jis_naginata15.json';
+  import naginata16 from './keyboards/jis_naginata16.json';
   import naginata17 from './keyboards/jis_naginata17.json';
   import kana from './keyboards/jis_kana.json';
   import nicola from './keyboards/jis_nicola.json';
@@ -17,7 +19,6 @@
   import asuka from './keyboards/jis_asuka123.json';
   import arensito from './keyboards/ortho_arensito.json';
   import isa from './keyboards/ortho_isa.json';
-  import colevrak from './keyboards/ortho_colevrak.json';
   import colemak from './keyboards/us_colemak.json';
   import dvorak from './keyboards/us_dvorak.json';
   import qgmlwy from './keyboards/us_qgmlwy.json';
@@ -42,6 +43,8 @@
   const keyboards = {
     "QWERTYローマ字" : romaji,
     "薙刀式v14": naginata14,
+    "薙刀式v15": naginata15,
+    "薙刀式v16": naginata16,
     "薙刀式v17": naginata17,
     "JISかな": kana,
     "新JIS": shinjis,
@@ -56,7 +59,6 @@
     "Dvorak": dvorak,
     "Colemak": colemak,
     "QGMLWY": qgmlwy,
-    "Colevrak": colevrak,
     "Arensito": arensito,
     "ISA": isa,
     "BASEKIT RS": usbasekit,
@@ -484,7 +486,7 @@
             </Row>
             <Row>
               <Cell><div class="textfield">
-                <div class="tooltip">アルペジオ数
+                <div class="tooltip">最速連接トップ30の出現回数
                   <span class="right">％の母数はアクション数-1。</span>
                 </div>
               </div></Cell>
@@ -531,7 +533,7 @@
 
     <div class="card-container">
       <Card style="width: 600px; margin: 3px;" variant="outlined" padded>
-        アルペジオの詳細
+        最速連接トップ30の詳細
         <Chart data={arpeggio_chart} type="bar" height="200" valuesOverPoints="1" colors ={['light-blue']} barOptions={{spaceRatio:0.3}} />
       </Card>
     </div>
