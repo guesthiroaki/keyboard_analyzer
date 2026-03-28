@@ -19,7 +19,9 @@ export default {
 	plugins: [
 		svelte({
 			// enable run-time checks when not in production
-			dev: !production,
+				compilerOptions: {
+					dev: !production
+				},
 			// we'll extract any component CSS out into
 			// a separate file - better for performance
 			emitCss: true
@@ -32,11 +34,17 @@ export default {
 		// https://github.com/rollup/plugins/tree/master/packages/commonjs
 		resolve({
 			browser: true,
-			dedupe: ['svelte']
+			dedupe: ['svelte'],
+			exportConditions: ['svelte'],
+			extensions: ['.mjs', '.js', '.json', '.node', '.svelte']
 		}),
 		commonjs(),
 
 		json(),
+		postcss({
+			extract: true,
+			minimize: production
+		}),
 
 		// In dev mode, call `npm run start` once
 		// the bundle has been generated
@@ -48,20 +56,7 @@ export default {
 
 		// If we're building for production (npm run build
 		// instead of npm run dev), minify
-    production && terser(),
-    
-    postcss({
-      extract: true,
-      minimize: true,
-      use: [
-        ['sass', {
-          includePaths: [
-            './src/theme',
-            './node_modules'
-          ]
-        }]
-      ]
-    })
+	   production && terser()
 	],
 	watch: {
 		clearScreen: false
@@ -70,15 +65,15 @@ export default {
 
 function serve() {
 	let started = false;
+	const npmCommand = process.platform === 'win32' ? 'npm.cmd' : 'npm';
 
 	return {
 		writeBundle() {
 			if (!started) {
 				started = true;
 
-				require('child_process').spawn('npm', ['run', 'start', '--', '--dev'], {
-					stdio: ['ignore', 'inherit', 'inherit'],
-					shell: true
+				require('child_process').spawn(npmCommand, ['run', 'start', '--', '--dev'], {
+					stdio: ['ignore', 'inherit', 'inherit']
 				});
 			}
 		}
