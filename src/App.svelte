@@ -7,22 +7,6 @@
 
   // キー配列
   import romaji from './keyboards/jis_romaji.json';
-  import naginata01 from './keyboards/jis_naginata01.json';
-  import naginata02 from './keyboards/jis_naginata02.json';
-  import naginata03 from './keyboards/jis_naginata03.json';
-  import naginata04 from './keyboards/jis_naginata04.json';
-  import naginata05 from './keyboards/jis_naginata05.json';
-  import naginata06 from './keyboards/jis_naginata06.json';
-  import naginata07 from './keyboards/jis_naginata07.json';
-  import naginata08 from './keyboards/jis_naginata08.json';
-  import naginata09 from './keyboards/jis_naginata09.json';
-  import naginata10 from './keyboards/jis_naginata10.json';
-  import naginata11 from './keyboards/jis_naginata11.json';
-  import naginata12 from './keyboards/jis_naginata12.json';
-  import naginata13 from './keyboards/jis_naginata13.json';
-  import naginata14 from './keyboards/jis_naginata14.json';
-  import naginata15 from './keyboards/jis_naginata15.json';
-  import naginata16 from './keyboards/jis_naginata16.json';
   import naginata17 from './keyboards/jis_naginata17.json';
   import kana from './keyboards/jis_kana.json';
   import nicola from './keyboards/jis_nicola.json';
@@ -72,22 +56,6 @@
     "Eucalynローマ字": eucalyn,
     "ISA": isa,
     "QGMLWY": qgmlwy,
-    "薙刀式v1": naginata01,
-    "薙刀式v2": naginata02,
-    "薙刀式v3": naginata03,
-    "薙刀式v4": naginata04,
-    "薙刀式v5": naginata05,
-    "薙刀式v6": naginata06,
-    "薙刀式v7": naginata07,
-    "薙刀式v8": naginata08,
-    "薙刀式v9": naginata09,
-    "薙刀式v10": naginata10,
-    "薙刀式v11": naginata11,
-    "薙刀式v12": naginata12,
-    "薙刀式v13": naginata13,
-    "薙刀式v14": naginata14,
-    "薙刀式v15": naginata15,
-    "薙刀式v16": naginata16,
   };
 
   let tokenizer;
