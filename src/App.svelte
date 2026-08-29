@@ -3,7 +3,7 @@
   import Keyboard from './Keyboard.svelte';
   import Chart from 'svelte-frappe-charts';
   import kuromoji from './kuromoji/kuromoji.js';
-  import {numEisu, numKanji, kanaToHira, conv_aozora, conv_kana, analyzeKeyboard, hankaku, eisuHankaku} from "./analyzer.js";
+  import {numEisu, numKanji, kanaToHira, conv_aozora, conv_kana, analyzeKeyboard, hankaku, eisuHankaku} from "./analyzer_ext.js";
 
   // キー配列
   import romaji from './keyboards/jis_romaji.json';
@@ -12,7 +12,7 @@
   import nicola from './keyboards/jis_nicola.json';
   import eucalyn from './keyboards/jis_eucalyn.json';
   import onishi from './keyboards/jis_onishi.json';
-  import shingeta from './keyboards/jis_shingeta.json';
+  import shingeta from './keyboards/grid_shingeta.js';
   import asuka from './keyboards/jis_asuka123.json';
   import arensito from './keyboards/ortho_arensito.json';
   import isa from './keyboards/ortho_isa.json';
@@ -25,7 +25,7 @@
   import tsuki from './keyboards/jis_tsuki.json';
   import tsubame from './keyboards/jis_tsubame.json';
   import layout7414 from './keyboards/ortho_7414.json';
-  import logos from './keyboards/ortho_logos.json';
+  import logos from './keyboards/ortho_logos_corrected.js';
 
   // Material UI
   import Textfield from '@smui/textfield';
