@@ -25,6 +25,7 @@
   import tsuki from './keyboards/jis_tsuki.json';
   import tsubame from './keyboards/jis_tsubame.json';
   import layout7414 from './keyboards/ortho_7414.json';
+  import logos from './keyboards/ortho_logos.json';
 
   // Material UI
   import Textfield from '@smui/textfield';
@@ -58,6 +59,7 @@
     "ISA": isa,
     "QGMLWY": qgmlwy,
     "7414改": layout7414,
+    "ロゴス": logos,
   };
 
   let tokenizer;
