@@ -17,7 +17,7 @@ export default {
   name: '新下駄',
   remark: `${base.remark || ''} 文字キーはOCRしやすい格子表示。`,
   displayKeys,
-  // 新下駄の変換表では同時押しシフトが keys[] の先頭に入る。
-  // S/D/K/L は中指・薬指ホームのシフト、I/O は拗音系セレクタとして扱う。
-  chordShiftKeys: ['s', 'd', 'k', 'l', 'i', 'o'],
+  // 新下駄の変換表では中指・薬指ホームの同時押しシフトが
+  // keys[] の先頭に入る。S/D/K/L の4キーだけをシフト役として分離する。
+  chordShiftKeys: ['s', 'd', 'k', 'l'],
 };
