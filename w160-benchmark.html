@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>W160 3候補 benchmark</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 24px; line-height: 1.45; }
+    textarea { width: 100%; min-height: 180px; box-sizing: border-box; }
+    fieldset { margin: 12px 0; }
+    button { padding: 8px 16px; margin-right: 8px; }
+    table { border-collapse: collapse; width: 100%; margin-top: 16px; font-size: 14px; }
+    th, td { border: 1px solid #bbb; padding: 6px 8px; text-align: right; }
+    th:first-child, td:first-child { text-align: left; white-space: nowrap; }
+    .status { margin: 10px 0; }
+    .note { color: #555; }
+    code { white-space: pre-wrap; }
+  </style>
+</head>
+<body>
+  <h1>W160 3候補 benchmark</h1>
+  <p class="note">1177 bridge / 9834 production / 1170 conditional を、同一テキスト・同一変換条件で keyboard_analyzer に通します。q/p 上段外側は現productionの qp_ring と同じ薬指打鍵です。</p>
+
+  <label for="text">入力テキスト</label>
+  <textarea id="text">人類が増えすぎた人口を宇宙に移民させるようになって、既に半世紀が過ぎていた。地球の周りの巨大な人工都市は人類の第二の故郷となり、人々はそこで子を産み、育て、そして死んでいった。</textarea>
+
+  <fieldset>
+    <legend>分析オプション（通常Appと同じ意味）</legend>
+    <label><input id="skip-conv" type="checkbox"> 漢字をカナ変換しない</label><br>
+    <label><input id="kana-only" type="checkbox"> カナのみ分析</label><br>
+    <label><input id="aozora" type="checkbox"> 青空文庫モード</label>
+  </fieldset>
+
+  <button id="run" disabled>3候補を比較</button>
+  <button id="copy" disabled>TSVをコピー</button>
+  <div id="status" class="status">形態素解析辞書を読み込み中…</div>
+
+  <table id="results" hidden>
+    <thead>
+      <tr>
+        <th>候補</th><th>かな</th><th>未入力</th><th>アクション</th><th>打鍵</th><th>シフト</th><th>連続シフト</th><th>同指</th><th>段越え</th><th>交互打鍵</th><th>非Shiftホーム</th><th>左</th><th>右</th><th>|L-R|</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <p class="note">数値は同一テキストに対する raw count です。外部比較なのでoptimizerのTotalとは合算しません。未入力が0であることを先に確認してください。</p>
+  <script type="module" src="/src/w160-benchmark.js"></script>
+</body>
+</html>
