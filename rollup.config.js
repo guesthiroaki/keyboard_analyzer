@@ -76,7 +76,8 @@ function serve() {
 			if (!started) {
 				started = true;
 				require('child_process').spawn(npmCommand, ['run', 'start', '--', '--dev'], {
-					stdio: ['ignore', 'inherit', 'inherit']
+					stdio: ['ignore', 'inherit', 'inherit'],
+				shell: process.platform === 'win32'
 				});
 			}
 		}
